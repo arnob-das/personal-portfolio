@@ -1,0 +1,9 @@
+#header{
+    background-color: #28293E;
+}
+.nav-contact-button{
+    height: 48px;
+    width: 138px;
+    outline: 1px solid #fff;
+    border-radius: 0;
+}
