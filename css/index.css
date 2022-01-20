@@ -8,7 +8,7 @@
 }
 #header h5,
 #header p,
-#help-section p {
+#help-section p #portfolio p {
   font-size: 16px;
 }
 .nav-contact-button {
@@ -18,7 +18,8 @@
   border-radius: 0;
 }
 .header-body h5,
-#help-section h5 {
+#help-section h5,
+#portfolio p {
   color: #ef6d58;
 }
 .header-body button {
@@ -28,6 +29,11 @@
   width: 148px;
   font-weight: 800;
   border-radius: 8px;
+}
+.header-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header-body img {
   height: 555px;
@@ -87,11 +93,77 @@
 #help-section .baseline {
   align-items: baseline;
 }
-
-
-
-
-
+#portfolio {
+  background: #28293e;
+  padding-bottom: 100px;
+}
+#portfolio .work-explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#portfolio h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+#portfolio button {
+  width: 170px;
+  height: 48px;
+  color: #fff;
+  border: 1px solid #ffffff;
+}
+#portfolio .row {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.portfolio {
+  width: 448px;
+  height: 576px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  position: relative;
+}
+.portfolio-1 {
+  background-image: url(../assets/image/sofa.png);
+}
+.portfolio-2 {
+  background-image: url(../assets/image/keyboard.png);
+}
+.portfolio-3 {
+  background-image: url(../assets/image/work-media.png);
+}
+.portfolio .bottom-div {
+  position: absolute;
+  bottom: 25px;
+  left: 35px;
+}
+.bottom-div p {
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+.portfolio h3 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+}
+.portfolio-1 hp3 {
+  width: 84px;
+}
+.portfolio-2 p {
+  width: 102px;
+}
+.portfolio-3 p {
+  width: 116px;
+}
 /* media query */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #header h1 {
