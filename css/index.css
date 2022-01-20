@@ -76,17 +76,22 @@
   justify-content: center;
   align-items: center;
 }
-#help-section p a{
-    text-decoration:none;
+#help-section p a {
+  text-decoration: none;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
   color: rgba(57, 20, 0, 0.64);
 }
-#help-section .baseline{
-    align-items:baseline;
+#help-section .baseline {
+  align-items: baseline;
 }
+
+
+
+
+
 /* media query */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #header h1 {
