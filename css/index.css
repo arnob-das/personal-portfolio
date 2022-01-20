@@ -8,7 +8,9 @@
 }
 #header h5,
 #header p,
-#help-section p #portfolio p {
+#help-section p #portfolio p,
+#portfolio .container p,
+#web-designer .container p {
   font-size: 16px;
 }
 .nav-contact-button {
@@ -19,7 +21,8 @@
 }
 .header-body h5,
 #help-section h5,
-#portfolio p {
+#portfolio .container p,
+#web-designer .container p {
   color: #ef6d58;
 }
 .header-body button {
@@ -42,7 +45,8 @@
 #help-section {
   background-color: #fdf0e9;
 }
-#help-section h2 {
+#help-section h2,
+#web-designer h2 {
   font-size: 56px;
   color: #391400;
 }
@@ -155,14 +159,34 @@
   font-size: 40px;
   line-height: 48px;
 }
-.portfolio-1 hp3 {
-  width: 84px;
+#web-designer {
+  background: #fdf0e9;
+  padding: 100px 0px;
 }
-.portfolio-2 p {
-  width: 102px;
+#web-designer .row {
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
-.portfolio-3 p {
-  width: 116px;
+#web-designer .short-des {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px !important;
+  line-height: 32px !important;
+  color: #391400 !important;
+}
+#web-designer .long-des {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64) !important;
+}
+#web-designer .about-me {
+  width: 138px;
+  height: 48px;
+  background: #fff;
+  color: #391400;
 }
 /* media query */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
