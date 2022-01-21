@@ -165,7 +165,7 @@
 }
 #web-designer .row {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 #web-designer .short-des {
@@ -188,6 +188,51 @@
   background: #fff;
   color: #391400;
 }
+.personal-feature{
+  margin-top: 135px;
+}
+.personal-feature .col-lg-6 {
+  border: 1px solid #f3d1bf;
+  display: flex;
+  align-items: center;
+  padding: 22px;
+}
+.personal-feature .icon-container {
+  position: relative;
+  width: 112px;
+  height: 112px;
+  background: #ef6c57;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-feature img {
+  height: 48px;
+  width: 48px;
+}
+.personal-feature .des{
+  padding: 20px;
+}
+.personal-feature h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+  margin: 0;
+  padding: 0;
+}
+.personal-feature p {font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+  
+  margin: 0;
+  padding: 0;
+}
+
 /* media query */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #header h1 {
