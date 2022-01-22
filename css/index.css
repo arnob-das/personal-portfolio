@@ -11,7 +11,7 @@
 #help-section p #portfolio p,
 #portfolio .container p,
 #web-designer .container p,
-#features .special {
+.special {
   font-size: 16px;
 }
 .nav-contact-button {
@@ -24,7 +24,7 @@
 #help-section h5,
 #portfolio .container p,
 #web-designer .container p,
-#features .special {
+.special {
   color: #ef6d58;
 }
 .header-body button {
@@ -246,7 +246,7 @@
   line-height: 64px;
   letter-spacing: -1px;
 }
-#features p{
+#features p {
   font-size: 20px;
   line-height: 32px;
 }
@@ -257,11 +257,57 @@
   padding: 10px;
   border-radius: 50%;
 }
-.icon-holder p{
+.icon-holder p {
   font-size: 20px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.64);
-margin-left: 20px;
+  margin-left: 20px;
+}
+#testimonials {
+  
+  padding-top: 100px;
+  padding-bottom: 90px;
+  background: #fdf0e9;
+  /* position:relative; */
+}
+#testimonials h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #391400;
+  margin-top: 30px;
+}
+#testimonials .col-12{
+  border: 1px solid #F3D1BF;
+  padding:30px 0;
+
+}
+#testimonials .testimonials-heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  margin-top: 20px;
+}
+#testimonials .clients-reviews{
+  display: flex;
+  align-items: center;
+}
+.clients-reviews h4, .clients-reviews p{
+  margin: 0;
+  padding: 0;
+}
+.clients-reviews p{
+line-height: 32px;
+}
+.clients-reviews img {
+  height:80px;
+  width:80px;
+  margin-right: 25px;
 }
 /* media query */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
