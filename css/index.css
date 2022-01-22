@@ -10,7 +10,8 @@
 #header p,
 #help-section p #portfolio p,
 #portfolio .container p,
-#web-designer .container p {
+#web-designer .container p,
+#features .special {
   font-size: 16px;
 }
 .nav-contact-button {
@@ -22,7 +23,8 @@
 .header-body h5,
 #help-section h5,
 #portfolio .container p,
-#web-designer .container p {
+#web-designer .container p,
+#features .special {
   color: #ef6d58;
 }
 .header-body button {
@@ -188,7 +190,7 @@
   background: #fff;
   color: #391400;
 }
-.personal-feature{
+.personal-feature {
   margin-top: 135px;
 }
 .personal-feature .col-lg-6 {
@@ -211,7 +213,7 @@
   height: 48px;
   width: 48px;
 }
-.personal-feature .des{
+.personal-feature .des {
   padding: 20px;
 }
 .personal-feature h3 {
@@ -223,16 +225,44 @@
   margin: 0;
   padding: 0;
 }
-.personal-feature p {font-style: normal;
+.personal-feature p {
+  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
   color: #391400;
-  
   margin: 0;
   padding: 0;
 }
-
+#features {
+  background: #28293e;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#features h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+#features p{
+  font-size: 20px;
+  line-height: 32px;
+}
+.icon-holder img {
+  height: 32px;
+  width: 32px;
+  background: #ef6c57;
+  padding: 10px;
+  border-radius: 50%;
+}
+.icon-holder p{
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+margin-left: 20px;
+}
 /* media query */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #header h1 {
