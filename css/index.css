@@ -494,7 +494,7 @@
 #contact {
   background: #28293e;
   padding-top: 100px;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
 }
 #contact .row {
   display: flex;
@@ -522,8 +522,9 @@
 .input-message {
   height: 156px !important;
 }
-.contact-box .submit-now {
-  padding: 15px 10px;
+.contact-box .submit-now,
+#contact-me-personal .link {
+  padding: 15px 15px;
   margin-top: 10px;
   font-weight: 900;
   font-size: 14px;
@@ -559,6 +560,23 @@
   background: #ef6c57;
   padding: 10px;
   border-radius: 50%;
+}
+#contact-me-personal {
+  background: #fdf0e9;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+#contact-me-personal h2 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+#contact-me-personal .des{
+  font-size: 16px;
+line-height: 32px;
+color: rgba(57, 20, 0, 0.64);
 }
 /* media query */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
