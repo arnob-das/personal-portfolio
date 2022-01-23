@@ -19,6 +19,7 @@
   width: 138px;
   outline: 1px solid #fff;
   border-radius: 0;
+  padding: 11px 35px;
 }
 .header-body h5,
 #help-section h5,
@@ -27,11 +28,10 @@
 .special {
   color: #ef6d58;
 }
-.header-body button {
+.header-body a {
   color: #fff;
   background-color: #ef6d58;
-  height: 48px;
-  width: 148px;
+  padding: 11px 20px;
   font-weight: 800;
   border-radius: 8px;
 }
@@ -116,9 +116,8 @@
   letter-spacing: -1px;
   color: #ffffff;
 }
-#portfolio button {
-  width: 170px;
-  height: 48px;
+#portfolio a {
+  padding: 11px 20px;
   color: #fff;
   border: 1px solid #ffffff;
 }
@@ -185,8 +184,7 @@
   color: rgba(57, 20, 0, 0.64) !important;
 }
 #web-designer .about-me {
-  width: 138px;
-  height: 48px;
+  padding: 12px 25px;
   background: #fff;
   color: #391400;
 }
@@ -276,9 +274,8 @@
 #get-started h5 {
   letter-spacing: 3px;
 }
-#get-started .btn {
-  width: 154px;
-  height: 48px;
+#get-started .row a {
+  padding: 12px 25px;
   background: #ef6c57;
   font-weight: 900;
 }
@@ -341,9 +338,8 @@
   width: 80px;
   margin-right: 25px;
 }
-#testimonials button {
-  height: 48px;
-  width: 138px;
+#testimonials a {
+  padding: 18px 30px;
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
@@ -369,6 +365,10 @@
   font-size: 16px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.64);
+}
+#faq a{
+  padding: 14px 24px;
+  background: #ef6d58;
 }
 #faq .accordion button {
   font-style: normal;
@@ -415,9 +415,8 @@
   letter-spacing: -1px;
   color: #391400;
 }
-#blogs .right .btn {
-  width: 170px;
-  height: 48px;
+#blogs .right a {
+  padding: 18px 30px;
   background: #fff;
   font-weight: 900;
   font-size: 14px;
@@ -483,9 +482,8 @@
   height: 45px;
   width: 376px;
 }
-.subscribe button {
-  height: 48px;
-  width: 170px;
+.subscribe a {
+  padding: 18px 40px;
   font-weight: 900;
   font-size: 14px;
   line-height: 14px;
