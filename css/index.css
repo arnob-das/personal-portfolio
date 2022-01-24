@@ -153,7 +153,7 @@
   padding: 5px 10px;
   border-radius: 15px;
   text-align: center;
-  width: 115px; 
+  width: 115px;
 }
 .portfolio h3 {
   color: #fff;
@@ -331,7 +331,7 @@
   margin: 0;
   padding: 0;
 }
-.reviews{
+.reviews {
   min-height: 100px;
 }
 .clients-reviews p {
@@ -382,8 +382,8 @@
   color: #fff;
   background: #28293e;
 }
-#faq img{
-  width: calc(100/5);
+#faq img {
+  width: calc(100 / 5);
 }
 .accordion-item {
   border: 1px solid #3a3c56;
@@ -580,30 +580,30 @@
   letter-spacing: -1px;
   color: #391400;
 }
-#contact-me-personal .des{
+#contact-me-personal .des {
   font-size: 16px;
-line-height: 32px;
-color: rgba(57, 20, 0, 0.64);
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
 }
-footer{
-  background-color: #28293E;
+footer {
+  background-color: #28293e;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-footer a{
+footer a {
   text-decoration: none;
   line-height: 32px;
 }
-footer .social-button img{
+footer .social-button img {
   background: #ef6c57;
   padding: 20px;
   border-radius: 50%;
   margin: 0 10px;
 }
-footer hr{
+footer hr {
   color: #545993;
 }
-footer .terms-condition{
+footer .terms-condition {
   text-decoration: none;
 }
 /* media query */
@@ -616,6 +616,12 @@ footer .terms-condition{
     height: 329px;
     width: 318px;
   }
+  .header-body p {
+    margin-right: 5px;
+  }
+  .header-img-container {
+    margin-top: 40px;
+  }
   .header-img-responsive-mobile {
     display: flex;
     justify-content: center;
@@ -625,5 +631,184 @@ footer .terms-condition{
     width: calc(100% / 2);
     margin: 0;
     padding: 0;
+  }
+  #help-section {
+    margin-bottom: -70px !important;
+  }
+  #help-section .row {
+    margin: 10px;
+  }
+  #portfolio .work-explore {
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #portfolio h2 {
+    font-size: 40px;
+  }
+  #portfolio a {
+    margin-top: 8px;
+  }
+  .portfolio-1 {
+    margin-top: 50px;
+  }
+  #web-designer {
+    padding-bottom: 50px;
+  }
+  #portfolio .row {
+    margin: 2px;
+  }
+  #web-designer .web-designer-image {
+    margin-top: -50px;
+  }
+  #web-designer .name {
+    margin-top: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  #web-designer .short-des {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #web-designer .long-des {
+    margin-top: 30px;
+  }
+  #web-designer a {
+    margin-top: 20px;
+  }
+  .personal-feature {
+    margin: 13px;
+    margin-top: 40px !important;
+  }
+  #features .container {
+    margin-top: -55px;
+  }
+  #features .img-fluid {
+    margin-top: 15px;
+  }
+  #get-started {
+    margin-bottom: -65px;
+  }
+  #get-started .container {
+    margin-top: -40px;
+  }
+  #get-started p {
+    margin-top: 30px;
+  }
+  #testimonials {
+    padding-top: 40px;
+  }
+  #testimonials .row {
+    margin: 2px;
+  }
+  .reviews {
+    min-height: 0px;
+  }
+  #faq .container {
+    margin-top: -60px;
+  }
+  #faq a {
+    margin-top: 20px;
+  }
+  #faq p {
+    margin-top: 30px;
+  }
+  #faq .accordion {
+    margin-top: 60px;
+  }
+  #faq .company-section {
+    display: none;
+  }
+  #blogs .container {
+    margin-top: -40px;
+  }
+  #blogs .right {
+    justify-content: start;
+    display: flex;
+    margin-top: 20px;
+  }
+  .blog-container {
+    margin-top: 55px !important;
+  }
+  #blogs .col-lg-12 {
+    display: block;
+  }
+  #blogs img {
+    width: 100%;
+  }
+  .blog-container p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .blog-container h4 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px !important;
+    line-height: 50px;
+    color: #391400;
+  }
+  .subscribe a,
+  .subscribe input {
+    width: 100%;
+  }
+  .subscribe a {
+    margin-top: 10px;
+  }
+  .subscribe h4 {
+    margin-top: 20px;
+  }
+  .contact-box {
+    display: block;
+    border-radius: 30px;
+  }
+  .contact-box input {
+    width: 100%;
+  }
+  .contact-box h4 {
+    margin-bottom: 20px;
+  }
+  #contact .title {
+    padding-top: 30px;
+  }
+  #contact h2 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+  }
+  #contact {
+    margin-bottom: -40px;
+  }
+  #contact-me-personal {
+    margin-top: -50px;
+  }
+  #contact-me-personal a {
+    margin-bottom: 20px;
+  }
+  #contact-me-personal img {
+    margin-top: 20px;
+  }
+  footer {
+    padding-bottom: 50px;
+  }
+  footer p {
+    letter-spacing: 3px;
+    font-size: 20px !important;
+  }
+  .social-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .terms-condition p {
+    text-align: center;
+  }
+  .terms-use-privacy-policy {
+    justify-content: space-around;
+    margin-top: 20px;
   }
 }
